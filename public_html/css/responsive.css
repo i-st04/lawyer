@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 1, 2023, 2:58:44 PM
+    Author     : ivona
+*/
+
+
+/*
+
+
+> 0px  - XS -No name
+
+>576px  -SM - small devices
+
+>768px  -MD - medium devices
+
+>992px  -LM - large devices
+
+>1200px  -XL -extra large devices
+
+*/
+
+@media(min-width:576px){
+    
+}
+
+@media(min-width:768px){
+    
+}
+
+@media(min-width:992px){
+    
+}
+
+@media(min-width:1200px){
+    
+}
