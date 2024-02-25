@@ -1,0 +1,29 @@
+
+.lead-section{
+    padding: 140px 0 ;
+    background-position: right top;
+    background-size: 794px 100%;
+    background-repeat: no-repeat;
+    
+    .lead-section-content{
+        background: rgba($white, 0.5);
+        
+        .lead-section-title{
+            font-size: 5.1rem;
+            line-height: 6.4rem;
+        }
+        
+        .lead-section-description{
+            line-height: 2.5rem;
+            margin-bottom: 2.7rem;
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .lead-section{
+        .lead-section-content{
+            background-color: transparent;
+        }
+    }
+}
