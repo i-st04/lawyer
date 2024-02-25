@@ -1,0 +1,32 @@
+
+header{
+    .navbar-nav{
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: $font-weight-medium;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            li{
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    header{
+        .navbar-nav{
+            li{
+                margin-left: 51px;
+            }
+        }
+    }
+}
