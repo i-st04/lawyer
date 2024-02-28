@@ -1,7 +1,7 @@
 
 
-$(document).ready(function(){
-    
+$(document).ready(function () {
+
     //ANIMATION
     function animation() {
         let  windowHeight = $(window).height();
@@ -24,9 +24,39 @@ $(document).ready(function(){
     });
     animation();
 
-    
-    
-    
-    
+
+    //team slider
+
+
+    if ($('.team-members-slider').length > 0) {
+        $('.team-members-slider').owlCarousel({
+           loop:true,
+           autoplay:true,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin:10
+
+                },
+                /*420:{
+                    items:1,
+                    margin:15
+                },
+                576:{
+                    items:1,
+                    margin:30
+                },
+                768:{
+                    items:1,
+                    margin:50
+                },*/
+                992: {
+                    items: 2,
+                    margin:30
+                }
+            }
+        });
+    }
+
 });
 

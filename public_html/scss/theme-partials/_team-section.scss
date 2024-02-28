@@ -1,0 +1,52 @@
+.team-section{
+    padding: 67px 0 61px;
+
+    .team-more{
+        font-size: 1.4rem;
+        font-weight: $font-weight-medium;
+    }
+
+    .team-members-slider{
+        overflow: hidden;
+
+        .team-member-content{
+            .team-member-name{
+                margin-bottom: 1.5rem;
+                a{
+                    line-height: 2.7rem;
+                    font-size: 2.2rem;
+                }
+            }
+            
+            .team-member-info{
+                margin-bottom: 3rem;
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+                height: 175px;
+            }
+            
+            
+            
+            .fa-linkedin-in{
+                color: lighten($gray-900,50%);
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+@media(min-width:576px){
+    .team-section{
+        .team-members-slider{
+            .team-member-content{
+                .team-member-info{
+                    margin-bottom:10.5rem;
+                    
+                 
+                }
+            }
+        }
+    }
+}
+
+
