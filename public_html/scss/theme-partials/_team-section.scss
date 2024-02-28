@@ -1,3 +1,5 @@
+$linkedin:$bismark-blue;
+
 .team-section{
     padding: 67px 0 61px;
 
@@ -28,7 +30,7 @@
             
             
             .fa-linkedin-in{
-                color: lighten($gray-900,50%);
+                color: $linkedin;
                 font-size: 3rem;
             }
         }

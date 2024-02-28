@@ -1,0 +1,20 @@
+$info-section-bg:$dark-blue;
+$info-color:$bismark-blue;
+
+.info-section{
+    background-color: $info-section-bg;
+    padding: 75px 0 69px;
+    
+    p, a{
+        color: $info-color;
+        font-weight: $font-weight-normal;
+        line-height: 2.5rem;
+        
+        span{
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+    }
+
+}
+
