@@ -12728,4 +12728,24 @@ footer nav a:hover {
   transform: rotate(360deg);
 }
 
+.about-vision {
+  padding: 50px 0;
+}
+
+.about-vision .vision-info h2, .about-vision .vision-info .h2 {
+  line-height: 4rem;
+  font-size: 3.6rem;
+}
+
+.about-vision .vision-info p {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .about-vision {
+    padding: 104px 0 133px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

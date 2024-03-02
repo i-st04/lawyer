@@ -1,0 +1,22 @@
+.about-vision{
+    padding: 50px 0;
+    
+    .vision-info{
+        h2{
+            line-height: 4rem;
+            font-size: 3.6rem;
+        }
+        
+        p{
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .about-vision{
+        padding: 104px 0 133px;
+    }
+}
+
