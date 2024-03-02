@@ -12705,4 +12705,27 @@ header .navbar-nav a {
   font-size: 2rem;
 }
 
+footer {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  font-weight: 500;
+}
+
+footer p, footer a {
+  margin-bottom: 0px;
+  color: #586C88;
+}
+
+footer nav a {
+  color: #1c222b;
+  font-size: 2rem;
+  transition: 1s linear;
+}
+
+footer nav a:hover {
+  transform: rotate(360deg);
+}
+
 /*# sourceMappingURL=theme.css.map */

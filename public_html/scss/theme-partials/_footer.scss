@@ -1,0 +1,30 @@
+$footer-color:$bismark-blue;
+
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 1.2rem;
+    line-height: 4.1rem;
+    font-weight: $font-weight-medium;
+    
+    p,a{
+        margin-bottom: 0px;
+        color: $footer-color;    
+    }
+    
+    
+    nav{
+        a{
+            color: darken($footer-color,30%);
+            font-size: 2rem;
+            transition: 1s linear;
+            
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+   
+}
+
