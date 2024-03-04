@@ -12773,4 +12773,24 @@ footer nav a:hover {
   }
 }
 
+.service-single-info {
+  padding: 50px 0;
+}
+
+.service-single-info .service-info h2, .service-single-info .service-info .h2 {
+  line-height: 4rem;
+  font-size: 3.6rem;
+}
+
+.service-single-info .service-info p {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .service-single-info {
+    padding: 104px 0 133px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
