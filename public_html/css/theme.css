@@ -12748,4 +12748,29 @@ footer nav a:hover {
   }
 }
 
+.services-page .services-section {
+  background-color: #11284B;
+}
+
+.services-page .services-section .service-item {
+  margin-bottom: 55px;
+}
+
+.services-page .services-section .service-item .services-info {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.services-page .services-section .service-item .more-link {
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .services-page .services-section .service-item .services-info {
+    height: 100px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

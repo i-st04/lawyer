@@ -1,0 +1,37 @@
+$service-bg:$dark-blue;
+$title-color:$primary;
+
+.services-page{
+    .services-section{
+       background-color: $service-bg;
+       
+       
+       .service-item{
+           margin-bottom: 55px;
+           .services-info{
+               color: #fff;
+               
+               margin-bottom: 15px;
+               font-size: 1.6rem;
+               line-height: 2.5rem;
+           }
+           
+           .more-link{
+               font-weight: $font-weight-medium;
+           }
+       }
+    }
+}
+
+
+@media(min-width:1200px){
+    .services-page{
+        .services-section{
+            .service-item{
+                .services-info{
+                   height: 100px;
+                }
+            }
+        }
+    }
+}
