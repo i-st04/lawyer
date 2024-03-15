@@ -17,8 +17,9 @@ $font-weight-medium: 500;
 
 
 $grid-breakpoints: (
-  xs: 0,
-  xm: 420px,
+  xxs: 0,
+  xs: 420px,
+  xm: 460px,
   sm: 576px,
   md: 768px,
   lg: 992px,
@@ -26,7 +27,7 @@ $grid-breakpoints: (
 );
 
 $container-max-widths: (
-  xm: 395px,
+  xm: 100%,
   sm: 540px,
   md: 720px,
   lg: 960px,

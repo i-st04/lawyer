@@ -19,16 +19,16 @@ $linkedin:$bismark-blue;
                     font-size: 2.2rem;
                 }
             }
-            
+
             .team-member-info{
                 margin-bottom: 3rem;
                 font-size: 1.6rem;
                 line-height: 2.5rem;
                 height: 175px;
             }
-            
-            
-            
+
+
+
             .fa-linkedin-in{
                 color: $linkedin;
                 font-size: 3rem;
@@ -43,11 +43,88 @@ $linkedin:$bismark-blue;
             .team-member-content{
                 .team-member-info{
                     margin-bottom:10.5rem;
-                    
-                 
+
+
                 }
             }
         }
+    }
+}
+
+//team.html
+
+.team-members{
+    padding: 50px 0;
+
+    .team-member{
+        figure{
+            overflow: hidden;
+            img{
+                transition: 1s linear;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .fa-brands{
+                bottom: 12px;
+                right: 15px;
+                font-size: 2.8rem;
+                color:$white;
+                z-index: 5;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+        h5{
+            a{
+                color: $gray-900;
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+
+            }
+        }
+        p.team-member-position{
+            font-weight: $font-weight-medium;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+        }
+
+    }
+}
+
+//team-single
+
+.team-single{
+    padding:15px 0 75px;
+    
+    .team-single-header{
+        margin-bottom: 3.6rem;
+        .team-member-position{
+            color: $primary;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+    
+    .team-member-bio{
+        p{
+            margin-bottom: 2rem;
+            line-height: 2.5rem;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .team-members{
+        padding: 64px 0 133px;
+
+
+    }
+
+    .team-single{
+       padding: 50px 0 148px;
     }
 }
 

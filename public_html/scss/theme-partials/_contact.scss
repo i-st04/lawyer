@@ -1,0 +1,47 @@
+$form-bg:#253D61;
+$form-font:$bismark-blue;
+
+.contact-lead-page{
+    p, a{
+        color: $info-color;
+        font-weight: $font-weight-normal;
+        line-height: 2.5rem;
+
+        span{
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+    }
+}
+
+.contact-form-section{
+    padding: 74px 0px;
+    h2{
+        line-height: 4.6rem;
+    }
+
+    .form-control{
+        background-color: rgba($form-bg,0.02)!important;
+        border: transparent;
+        font-size:1.6rem;
+        line-height: 2.6rem;
+        padding: 10px 15px;
+        
+        
+        &::placeholder{
+            color: rgba($form-font,0.8) !important;
+        }
+
+        &:focus{
+            box-shadow: 0px 0px 2px 3px rgba(26,119,205,0.75);
+            -webkit-box-shadow: 0px 0px 2px 3px rgba(26,119,205,0.75);
+            -moz-box-shadow: 0px 0px 2px 3px rgba(26,119,205,0.75);
+        }
+    }
+    
+    .error-msg *{
+        color: $danger;
+        font-size: 1.3rem;
+    }
+}
+

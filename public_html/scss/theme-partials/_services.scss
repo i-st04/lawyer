@@ -18,10 +18,37 @@ $title-color:$primary;
            
            .more-link{
                font-weight: $font-weight-medium;
+               font-size: 1.4rem;
+               line-height: 1.7rem;
            }
        }
     }
 }
+
+.service-single-info{
+    padding: 50px 0;
+    
+    .service-info{
+        h2{
+            line-height: 4rem;
+            font-size: 3.6rem;
+        }
+        
+        p{
+            line-height: 2.5rem;
+            font-size: 1.6rem;
+            overflow: hidden;
+            height: 3*2.5rem;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .service-single-info{
+        padding: 104px 0 133px;
+    }
+}
+
 
 
 @media(min-width:1200px){
